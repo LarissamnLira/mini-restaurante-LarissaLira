@@ -1,0 +1,17 @@
+body{
+    text-align: justify;
+    background-color:rgb(226, 228, 201);
+    line-height: 1.5;
+    color: rgb(14, 85, 14);
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a{
+    color: red;
+}
+
+h4{
+    display: inline;
+    margin-right: 8px;
+}

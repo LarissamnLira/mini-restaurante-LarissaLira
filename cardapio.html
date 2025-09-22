@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        table, th, td{
+            border: 2px solid white;
+            border-collapse: collapse;
+            color: rgb(14, 85, 14);
+            width: 100%;
+            table-layout: fixed;
+            padding: 10px;
+        }
+        td{
+            color: red; 
+        }
+
+        th{
+            text-align: center;
+        }
+
+        img{
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cardápio</h1>
+    <table>
+        <tr>
+            <th>Entradas</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>*Imagem ilustrativa</th>
+        </tr>
+        <tr>
+            <td>Bruschetta al Pomodoro</td>
+            <td>Pão italiano crocante com tomates frescos, manjericão e azeite extravirgem.</td>
+            <td>R$ 27</td>
+            <td><img src="./img/bruschetta.jpg" alt="Bruschetta al Pomodoro"></td>
+        </tr>
+        <tr>
+            <td>Carpaccio di Manzo</td>
+            <td>Finas fatias de carne bovina crua, temperadas com azeite, limão, rúcula e parmesão.</td>
+            <td>R$ 33</td>
+            <td><img src="./img/Carpaccio.webp" alt="Carpaccio di Manzo"></td>
+        </tr>
+        <tr>
+            <td>Arancini di Riso</td>
+            <td>Bolinhos de risoto empanados e fritos, recheados com queijo e molho de tomate.</td>
+            <td>R$ 25</td>
+            <td><img src="./img/arancini.jpg" alt="Arancini di Riso"></td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <tr>
+            <th>Prato Principal</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>*Imagem ilustrativa</th>
+        </tr>
+
+        <tr>
+            <td>Spaghetti alla Carbonara</td>
+            <td>Massa com molho de ovos, queijo pecorino e pancetta</td>
+            <td>R$ 59</td>
+            <td><img src="./img/carbonara.avif" alt="Spaghetti alla Carbonara"></td>
+        </tr>
+
+        <tr>
+            <td>Tagliatelle al Ragù di Cinghiale</td>
+            <td>Massa fresca com ragu de javali ao vinho tinto, típico da Toscana.</td>
+            <td>R$ 85</td>
+            <td><img src="./img/tagliatelle.jpg" alt="Tagliatelle al Ragù di Cinghiale"></td>
+        </tr>
+        <tr>
+            <td>Gnocchi al Pesto Genovese</td>
+            <td>Nhoques de batata ao molho de manjericão, pinoli e parmesão.</td>
+            <td>R$ 79</td>
+            <td><img src="./img/gnocchi.jpg" alt="Gnocchi al Pesto Genovese"></td>
+        </tr>
+        <tr>
+            <td>Risotto ai Funghi</td>
+            <td>Risoto cremoso preparado com cogumelos e finalizado com parmesão.</td>
+            <td>R$ 67</td>
+            <td><img src="./img/risotto.jpeg" alt="Risotto ai Funghi"></td>
+        </tr>
+        <tr>
+            <td>Lasagna alla Bolognese</td>
+            <td>Camadas de massa, ragu de carne, molho bechamel e parmesão gratinado.</td>
+            <td>R$ 65</td>
+            <td><img src="./img/lasagna.jpg" alt="Lasagna alla Bolognese"></td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <tr>
+            <th>Sobremesas</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>*Imagem ilustrativa</th>
+        </tr>
+        <tr>
+            <td>Tiramisù Classico</td>
+            <td>Camadas de biscoito champagne com café, creme de mascarpone e cacau.</td>
+            <td>R$ 42</td>
+            <td><img src="./img/tiramisu.jpg" alt="Tiramisù Classico"></td>
+        </tr>
+        <tr>
+            <td>Panna Cotta alla Vaniglia</td>
+            <td>Creme cozido delicado de baunilha, servido com calda de frutas vermelhas.</td>
+            <td>R$ 32</td>
+            <td><img src="./img/panna-cotta.jpg" alt="Panna Cotta alla Vaniglia"></td>
+        </tr>
+        <tr>
+            <td>Cannoli Siciliani</td>
+            <td>Massa crocante recheada com creme de ricota, frutas cristalizadas e chocolate.</td>
+            <td>R$ 37</td>
+            <td><img src="./img/canolli.webp" alt="Cannoli Siciliani"></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Bebidas</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <th style="text-align: justify; color: red;">Vinhos</th>
+            <td rowspan="4" style="text-align: center;">* Consulte os preços com o garçom</td>
+        </tr>
+        <tr>
+            <td>Chianti Classico (Toscana)</td>
+        </tr>
+        <tr>
+            <td>Barolo DOCG (Piemonte)</td>
+        </tr>
+        <tr>
+            <td>Prosecco di Valdobbiadene (Vêneto)</td>
+        </tr>
+        <tr>
+            <td><b>Refrigerante ou água</b></td>
+            <td>R$ 9</td>
+        </tr>
+        <tr>
+            <td><b>Suco</b></td>
+            <td>R$ 12</td>
+        </tr>
+    </table>
+    <br>
+
+    <h3>Sugestões do Chefe:</h3>
+    <ol>
+        <li>Risotto al Tartufo Bianco – Risoto finalizado com lascas de trufa branca.</li>
+        <li>Filetto al Barolo – Filé mignon ao molho de vinho Barolo, servido com polenta cremosa.</li>
+        <li>Ravioli di Ricotta e Spinaci – Ravioli caseiro recheado com ricota e espinafre, ao molho de manteiga e sálvia.</li>
+    </ol>
+    <br>
+
+    <nav>
+        <h4>Voltar para a página inicial: </h4>
+            <a href="./index.html">Página inicial</a>
+    <br>
+        <h4>Entre em contato conosco: </h4>
+            <a href="./contato.html">Contato</a>
+    <br>
+        <h4>Acesse o nosso Instagram: </h4>
+        <a href="https://www.instagram.com/larissa_l1raa?igsh=MXRyYWhpcmUxbXNxag%3D%3D&utm_source=qr" target="_blank">larissa_l1raa</a>
+    </nav>
+</body>
+
+</html>
